@@ -1,70 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,700;1,400&family=Open+Sans&family=Ubuntu&display=swap');
 
+* {
+    color: azure;
+}
 
+/* Ubuntu Barlow Condensed */
 .faq__section {
+    padding: 110px 0 700px;
     background-color: #222222;
-}
-
-.container {
-    width: 1100px;
-    margin: auto;
-}
-
-.faq__subtitle {
-    color: #F6B82D;
-    fill: #F6B82D;
-    font-family: Ubuntu, sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    line-height: 22.4px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 0px 30px;
-}
-
-.faq__section h2 {
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 65px;
-    font-weight: 700;
-    line-height: 65px;
-    color: #fff;
-    text-align: center;
-}
-
-.faq__section p {
-    margin: auto;
-    width: 770px;
-    font-family: Ubuntu, sans-serif;
-    font-size: 20px;
-    color: #888888;
-    letter-spacing: -0.44;
-    line-height: 30px;
-    text-align: center;
-    word-spacing: 0px;
-}
-
-.faq__grid {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
-.faq {
-    display: flex;
-    width: 310px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.faq h3 {
-    display: block;
-}
-
-.faq p {
-    display: block;
-    width: 310px;
 }
