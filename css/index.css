@@ -79,7 +79,7 @@ p {
 
     color: #fff;
     min-height: 600px;
-    background-image: url(/img/welcombg.jpg);
+    background-image: url(../img/welcombg.jpg);
     background-size: cover;
     background-position: center;
 }
