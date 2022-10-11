@@ -2,10 +2,20 @@
 
 * {
     color: azure;
+
 }
 
 /* Ubuntu Barlow Condensed */
+
+.container {}
+
 .faq__section {
-    padding: 110px 0 700px;
+    padding-bottom: 700px;
+    padding: 50px 15px 0px;
     background-color: #222222;
+}
+
+.faq__subtitle {
+    font-family: Ubuntu, sans-serif;
+
 }
