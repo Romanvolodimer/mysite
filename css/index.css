@@ -111,7 +111,10 @@ p {
     letter-spacing: 2px;
     text-transform: uppercase;
     transition: background-color 0.2s;
+}
 
+.welcome_links a {
+    color: #fff;
 }
 
 .link-primary:hover {
@@ -225,4 +228,77 @@ p {
     text-align: center;
 
     color: #6A859C;
+}
+
+.abouts {
+    margin: auto;
+}
+
+.grits {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about__frame {
+    width: 310px;
+
+}
+
+.about__frame h3 {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #676770;
+    margin-bottom: 25px;
+}
+
+.about__frame p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #6A859C;
+}
+
+.link__container a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #668CAD;
+}
+
+.link__container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 31px;
+
+    border-bottom: 1px solid #D5D5E0;
+    box-sizing: border-box;
+}
+
+.link__container img {
+    margin-right: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 101px;
+    background-color: #383838;
+}
+
+footer p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #9E9E9E;
 }
