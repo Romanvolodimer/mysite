@@ -2,6 +2,10 @@
 
 @import url(reset.css);
 
+.game {
+    display: none;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
